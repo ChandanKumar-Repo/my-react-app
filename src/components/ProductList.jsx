@@ -38,7 +38,6 @@ function ProductList({ selectedCategory }) {
   }, [selectedCategory]);
 
    if (loading) {
-    //false
     // return <div className="loading">Loading ...</div>;
     return (
       <div className="products">
